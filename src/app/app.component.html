@@ -1,0 +1,14 @@
+<mat-toolbar color="primary">
+   <mat-toolbar-row>
+     <!--  <span>HOME</span> -->
+      <span><a href="/">HOME</a></span>
+      <span class="spacer"></span>
+      <span mat-button  routerLink="/twitter_timeline">Timeline</span>
+      <br>
+      <a  mat-button  routerLink="/twitter_mentions">Mentions</a>
+      <br>
+      <a  mat-button  routerLink="/tweets">Tweets</a>
+   </mat-toolbar-row>
+</mat-toolbar>
+<router-outlet></router-outlet>
+
